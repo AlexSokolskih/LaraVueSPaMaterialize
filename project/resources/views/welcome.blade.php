@@ -16,11 +16,10 @@
 </head>
 <body>
 <div id="app">
+    <vue-layout></vue-layout>
 </div>
 
 <script src="{{ asset('/js/app.js') }}">    </script>
-
-
 
 </body>
 </html>
