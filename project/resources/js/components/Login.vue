@@ -13,7 +13,6 @@
                         <label for="password">Password</label>
                     </div>
                 </div>
-                <input type="submit">
                 <button @click="login">Login</button>
             </form>
         </div>

@@ -2048,7 +2048,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Login",
   data: function data() {
@@ -50015,8 +50014,6 @@ var render = function() {
             _c("label", { attrs: { for: "password" } }, [_vm._v("Password")])
           ])
         ]),
-        _vm._v(" "),
-        _c("input", { attrs: { type: "submit" } }),
         _vm._v(" "),
         _c("button", { on: { click: _vm.login } }, [_vm._v("Login")])
       ])
