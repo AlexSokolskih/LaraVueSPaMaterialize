@@ -38,7 +38,7 @@ router.beforeEach((to, from, next) => {
         }
     }
     if (to.matched.some(record => (record.meta.middlewareAuth === false))) {
-        if (auth.check()) {
+       if (auth.check()) {
             next({
                 path: '/home',
                 query: { redirect: to.fullPath }

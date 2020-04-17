@@ -65291,7 +65291,11 @@ function () {
   }, {
     key: "check",
     value: function check() {
-      return !!this.token;
+      if (this.token == 'false' || this.token == null || !this.token) {
+        return false;
+      } else {
+        return true;
+      }
     }
   }]);
 
@@ -65777,9 +65781,9 @@ router.beforeEach(function (to, from, next) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/alex/projects/study/Vue/LaraVueSPaMaterialize/project/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /home/alex/projects/study/Vue/LaraVueSPaMaterialize/project/node_modules/materialize-css/dist/js/materialize.js */"./node_modules/materialize-css/dist/js/materialize.js");
-module.exports = __webpack_require__(/*! /home/alex/projects/study/Vue/LaraVueSPaMaterialize/project/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/alex/projects/irregular_verbs/LaraVueSPaMaterialize/project/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /home/alex/projects/irregular_verbs/LaraVueSPaMaterialize/project/node_modules/materialize-css/dist/js/materialize.js */"./node_modules/materialize-css/dist/js/materialize.js");
+module.exports = __webpack_require__(/*! /home/alex/projects/irregular_verbs/LaraVueSPaMaterialize/project/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

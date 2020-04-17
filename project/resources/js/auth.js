@@ -52,7 +52,11 @@ class Auth {
     }
 
     check () {
-        return !!this.token;
+        if ( (this.token == 'false') || (this.token == null) || !this.token) {
+            return false;
+        } else {
+            return true;
+        }
     }
 }
 
